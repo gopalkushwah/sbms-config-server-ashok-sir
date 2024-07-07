@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: WELCOME
+  config:
+    import: optional:configserver:http://localhost:8080
+    
+server:
+  port: 8082
